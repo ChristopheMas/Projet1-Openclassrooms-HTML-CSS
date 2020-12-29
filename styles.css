@@ -1,0 +1,160 @@
+* {
+  font-family: "Raleway", sans-serif;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  list-style-type: none;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.inscription {
+  font-weight: bold;
+  color: #0065fc;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: #0065fc;
+  text-decoration: overline solid 3px;
+}
+
+/* SECTION RECHERCHER */
+
+.search {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.fas {
+  background-color: #f2f2f2;
+  width: 55px;
+  height: 64px;
+  border-radius: 15px 0 0 15px;
+  text-align: center;
+}
+
+.placeholder {
+  width: 250px;
+  height: 60px;
+  font-size: 1.2em;
+  font-weight: bold;
+  border: #f2f2f2 solid 1px;
+  padding-left: 20px;
+}
+::placeholder {
+  color: black;
+}
+
+.bouton {
+  width: 150px;
+  height: 64px;
+  background-color: #0065fc;
+  font-weight: bold;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 0 15px 15px 0;
+}
+
+.rechercher {
+  color: white;
+}
+
+.rechercher:hover {
+  text-decoration: none;
+  color: white;
+}
+
+/* FILTRES */
+
+.fas {
+  color: #0065fc;
+  background-color: #deebff;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: 1.5em;
+  text-align: center;
+  vertical-align: mi;
+}
+
+.filtres {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+}
+
+#filters {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bouton_filtre {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  height: 60px;
+  margin: 0 30px;
+  border: #f2f2f2 solid 3px;
+  border-radius: 40px;
+  background-color: white;
+}
+
+.lien_filtre {
+}
+
+.lien_filtre:hover {
+  text-decoration: none;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: start;
+  flex-direction: row;
+  background-color: #f2f2f2;
+}
+
+footer ul {
+  list-style-type: none;
+  text-align: start;
+  padding-left: 0;
+}
+
+footer div {
+  padding-left: 40px;
+  padding-right: 250px;
+}
+
+footer li {
+  padding-top: 10px;
+}
+
+h2 {
+  text-align: center;
+}
+
+.liens_footer:hover {
+  text-decoration: none;
+}
