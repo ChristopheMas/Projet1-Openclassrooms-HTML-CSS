@@ -20,8 +20,8 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 40px;
+  padding-right: 40px;
 }
 
 .inscription {
@@ -40,91 +40,55 @@ a:hover {
 }
 
 /* SECTION RECHERCHER */
-
 .search {
-  display: flex;
-  margin-bottom: 40px;
+  position: relative;
+  width: 500px;
+  height: 50px;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+input {
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
 }
 
-.fas {
-  background-color: #f2f2f2;
-  width: 55px;
-  height: 64px;
-  border-radius: 15px 0 0 15px;
-  text-align: center;
+input[type="text"] {
+  box-sizing: border-box;
+  width: 240px;
+  height: 50px;
+  border: solid 1px #f2f2f2;
+  border-left: none;
+  padding: 0 20px;
 }
 
-.placeholder {
-  width: 250px;
-  height: 60px;
-  font-size: 1.2em;
-  font-weight: bold;
-  border: #f2f2f2 solid 1px;
-  padding-left: 20px;
+input[type="submit"] {
+  position: relative;
+  left: -5px;
+  border-radius: 0 15px 15px 0;
+  height: 50px;
+  color: white;
+  background-color: #0065fc;
+  width: 150px;
+  border: none;
+  cursor: pointer;
 }
+
 ::placeholder {
   color: black;
 }
 
-.bouton {
-  width: 150px;
-  height: 64px;
-  background-color: #0065fc;
-  font-weight: bold;
-  font-size: 1.2em;
-  border: none;
-  border-radius: 0 15px 15px 0;
-}
-
-.rechercher {
-  color: white;
-}
-
-.rechercher:hover {
-  text-decoration: none;
-  color: white;
-}
-
-/* FILTRES */
-
-.fas {
-  color: #0065fc;
-  background-color: #deebff;
-  width: 55px;
-  height: 55px;
-  border-radius: 50%;
-  font-size: 1.5em;
-  text-align: center;
-  vertical-align: mi;
-}
-
-.filtres {
-  display: flex;
-  flex-direction: row;
-  justify-content: start;
-}
-
-#filters {
-  display: flex;
-  justify-content: space-between;
-}
-
-.bouton_filtre {
-  display: flex;
-  justify-content: space-between;
-  width: 250px;
-  height: 60px;
-  margin: 0 30px;
-  border: #f2f2f2 solid 3px;
-  border-radius: 40px;
-  background-color: white;
-}
-
-.lien_filtre {
-}
-
-.lien_filtre:hover {
-  text-decoration: none;
+i {
+  position: relative;
+  display: inline-block;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px 0 0 15px;
+  padding: 18px;
+  right: -5px;
 }
 
 /* FOOTER */
@@ -151,7 +115,7 @@ footer li {
   padding-top: 10px;
 }
 
-h2 {
+footer h2 {
   text-align: center;
 }
 

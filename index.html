@@ -3,7 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-    <script src="https://kit.fontawesome.com/eed4d302c2.js" crossorigin="anonymous"></script>    <link
+    <script
+      src="https://kit.fontawesome.com/eed4d302c2.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
       href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
@@ -11,6 +15,7 @@
   </head>
   <body>
     <header>
+      <div id="main">
       <img id="logo" src="images/logo/Reservia.svg" alt="Logo de Reservia" />
       <nav>
         <ul>
@@ -21,41 +26,31 @@
       </nav>
     </header>
 
-    <section id="recherche">
+    <section class="recherche">
       <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
       <p>En plein centre ville ou en pleine nature</p>
 
       <div class="search">
-        <i class="fas fa-map-marker-alt"></i>
-          <input type="text" class="placeholder" placeholder="Marseille, France">
-          <button class="bouton"><a class="rechercher" href="#">Rechercher</a></button>
+        <form>
+          <i class="fas fa-map-marker-alt"></i>
+          <input type="text" placeholder="Marseille, France" />
+          <input type="submit" value="Rechercher" />
         </form>
       </div>
-
-      <div class="filtres">
-        <p>Filtres</p>        
-          <button class="bouton_filtre"><a href="#" class="lien_filtre"><i class="fas fa-money-bill-wave"></i>Economique</a></button>
-          <button class="bouton_filtre"><a href="#" class="lien_filtre"><i class="fas fa-child"></i>Familial</a></button>
-          <button class="bouton_filtre"><a href="#" class="lien_filtre"><i class="fas fa-heart"></i>Romantique</a></button>
-          <button class="bouton_filtre"><a href="#" class="lien_filtre"><i class="fas fa-dog"></i>Animaux autorisés</a></button>      
-
-      </div>
     </section>
-
     </div>
-    <section id="hebergements">
-      <div id="hebergements_marseille"></div>
-      <div id="populaires"></div>
-    </section>
-    <section id="activites"></section>
 
     <footer>
       <div id="a_propos">
         <h3>A propos</h3>
         <ul>
           <li><a class="liens_footer" href="#">Fonctionnement du site</a></li>
-          <li><a class="liens_footer" href="#">Conditions générales de vente</a></li>
-          <li><a class="liens_footer" href="#">Données et confidentialité</a></li>
+          <li>
+            <a class="liens_footer" href="#">Conditions générales de vente</a>
+          </li>
+          <li>
+            <a class="liens_footer" href="#">Données et confidentialité</a>
+          </li>
         </ul>
       </div>
 
@@ -74,11 +69,6 @@
           <li><a class="liens_footer" href="#">Nous contacter</a></li>
         </ul>
       </div>
-
-
-
-
-
     </footer>
   </body>
 </html>
