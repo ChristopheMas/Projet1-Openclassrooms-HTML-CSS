@@ -29,14 +29,15 @@ nav li {
   color: #0065fc;
 }
 
-a {
+header a {
   text-decoration: none;
   color: black;
 }
 
-a:hover {
+header a:hover {
   color: #0065fc;
-  text-decoration: overline solid 3px;
+  border-top: solid 3px #0065fc;
+  padding-top: 21px;
 }
 
 /* SECTION RECHERCHER */
@@ -70,6 +71,7 @@ input[type="submit"] {
   height: 50px;
   color: white;
   background-color: #0065fc;
+  font-weight: bold;
   width: 150px;
   border: none;
   cursor: pointer;
@@ -77,6 +79,7 @@ input[type="submit"] {
 
 ::placeholder {
   color: black;
+  font-weight: bold;
 }
 
 i {
@@ -89,6 +92,143 @@ i {
   border-radius: 15px 0 0 15px;
   padding: 18px;
   right: -5px;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+}
+
+.info i {
+  display: inline-block;
+  color: #0065fc;
+  background-color: white;
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  border: 1px solid #f2f2f2;
+  border-radius: 50%;
+}
+.info p {
+  margin-left: 15px;
+}
+
+/* Filtres */
+.liens {
+  display: flex;
+  justify-content: start;
+  position: relative;
+}
+
+.liens p {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 4px;
+}
+
+.economique .button {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  width: 250px;
+  font-weight: 600;
+  position: absolute;
+  border: solid 2px #f2f2f2;
+  padding-left: 30px;
+  left: 100px;
+}
+
+.economique i {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #deebff;
+  color: #0065fc;
+  left: 100px;
+}
+
+.familial .button {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  width: 200px;
+  font-weight: 600;
+  position: absolute;
+  border: solid 2px #f2f2f2;
+  padding-left: 30px;
+  left: 390px;
+}
+
+.familial i {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #deebff;
+  color: #0065fc;
+  left: 390px;
+}
+
+.romantique .button {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  width: 250px;
+  font-weight: 600;
+  position: absolute;
+  border: solid 2px #f2f2f2;
+  padding-left: 30px;
+  left: 640px;
+}
+
+.romantique i {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #deebff;
+  color: #0065fc;
+  left: 640px;
+}
+
+.animaux .button {
+  font-size: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 25px;
+  width: 350px;
+  font-weight: 600;
+  position: absolute;
+  border: solid 2px #f2f2f2;
+  padding-left: 30px;
+  left: 940px;
+}
+
+.animaux i {
+  position: absolute;
+  padding: 10px;
+  font-size: 20px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #deebff;
+  color: #0065fc;
+  left: 940px;
+}
+
+.button:hover {
+  background-color: #deebff;
+  cursor: pointer;
 }
 
 /* FOOTER */
@@ -119,6 +259,11 @@ footer h2 {
   text-align: center;
 }
 
-.liens_footer:hover {
+footer a {
   text-decoration: none;
+  color: black;
+}
+
+footer a:hover {
+  color: #0065fc;
 }
