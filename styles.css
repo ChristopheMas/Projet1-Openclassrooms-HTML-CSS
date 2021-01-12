@@ -82,7 +82,7 @@ input[type="submit"] {
   font-weight: bold;
 }
 
-i {
+form i {
   position: relative;
   display: inline-block;
   box-sizing: border-box;
@@ -126,12 +126,14 @@ i {
   line-height: 4px;
 }
 
-.economique .button {
+.economique a {
   font-size: 30px;
   color: black;
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border-radius: 25px;
-  width: 250px;
+  width: 8em;
   font-weight: 600;
   position: absolute;
   border: solid 2px #f2f2f2;
@@ -143,18 +145,20 @@ i {
   position: absolute;
   padding: 10px;
   font-size: 20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
   left: 100px;
 }
 
-.familial .button {
+.familial a {
   font-size: 30px;
   color: black;
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border-radius: 25px;
   width: 200px;
   font-weight: 600;
@@ -168,18 +172,20 @@ i {
   position: absolute;
   padding: 10px;
   font-size: 20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
   left: 390px;
 }
 
-.romantique .button {
+.romantique a {
   font-size: 30px;
   color: black;
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border-radius: 25px;
   width: 250px;
   font-weight: 600;
@@ -193,18 +199,20 @@ i {
   position: absolute;
   padding: 10px;
   font-size: 20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
   left: 640px;
 }
 
-.animaux .button {
+.animaux a {
   font-size: 30px;
   color: black;
   background-color: white;
+  text-decoration: none;
+  text-align: center;
   border-radius: 25px;
   width: 350px;
   font-weight: 600;
@@ -218,17 +226,140 @@ i {
   position: absolute;
   padding: 10px;
   font-size: 20px;
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
   left: 940px;
 }
 
-.button:hover {
+.liens a:hover {
   background-color: #deebff;
   cursor: pointer;
+}
+
+/* Hébergements */
+article {
+  background-color: #f2f2f2;
+}
+
+.premiereligne {
+  display: flex;
+  flex-direction: row;
+}
+
+.deuxiemeligne {
+  display: flex;
+  flex-direction: row;
+}
+
+#cannebiere_image {
+  position: relative;
+}
+
+#cannebiere_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#cannebiere_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+#hotelduport_image {
+  position: relative;
+}
+
+#hotelduport_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#hotelduport_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+#hotellesmouettes_image {
+  position: relative;
+}
+
+#hotellesmouettes_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#hotellesmouettes_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+#hoteldelamer_image {
+  position: relative;
+}
+
+#hoteldelamer_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#hoteldelamer_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+#aubergelepanier_image {
+  position: relative;
+}
+
+#aubergelepanier_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#aubergelepanier_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
+}
+
+#hotelchezamina_image {
+  position: relative;
+}
+
+#hotelchezamina_image img {
+  border-radius: 10px;
+  width: 12em;
+  height: 13em;
+}
+
+#hotelchezamina_description {
+  position: absolute;
+  bottom: 0;
+  background-color: white;
+  border-radius: 0 0 10px 10px;
+  width: 100%;
 }
 
 /* FOOTER */
