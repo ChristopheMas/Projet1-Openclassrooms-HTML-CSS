@@ -20,8 +20,8 @@ nav ul {
 
 nav li {
   list-style-type: none;
-  padding-left: 40px;
-  padding-right: 40px;
+  padding-left: 2.5em;
+  padding-right: 2.5em;
 }
 
 .inscription {
@@ -37,7 +37,7 @@ header a {
 header a:hover {
   color: #0065fc;
   border-top: solid 3px #0065fc;
-  padding-top: 21px;
+  padding-top: 1.3em;
 }
 
 /* SECTION RECHERCHER */
@@ -113,7 +113,7 @@ form i {
   margin-left: 15px;
 }
 
-/* Filtres */
+/* FILTRES */
 .liens {
   display: flex;
   justify-content: start;
@@ -121,24 +121,26 @@ form i {
 }
 
 .liens p {
-  font-size: 25px;
+  font-size: 1.2em;
   font-weight: bold;
-  line-height: 4px;
+  line-height: 0.25em;
 }
 
 .economique a {
-  font-size: 30px;
+  font-size: 1.2em;
   color: black;
   background-color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 25px;
   width: 8em;
+  height: 2em;
+  line-height: 2em;
   font-weight: 600;
   position: absolute;
   border: solid 2px #f2f2f2;
-  padding-left: 30px;
-  left: 100px;
+  padding-left: 1.8em;
+  left: 4em;
 }
 
 .economique i {
@@ -150,22 +152,24 @@ form i {
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
-  left: 100px;
+  left: 3.9em;
 }
 
 .familial a {
-  font-size: 30px;
+  font-size: 1.2em;
   color: black;
   background-color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 25px;
-  width: 200px;
+  width: 7em;
+  height: 2em;
+  line-height: 2em;
   font-weight: 600;
   position: absolute;
   border: solid 2px #f2f2f2;
   padding-left: 30px;
-  left: 390px;
+  left: 15em;
 }
 
 .familial i {
@@ -177,22 +181,24 @@ form i {
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
-  left: 390px;
+  left: 14.4em;
 }
 
 .romantique a {
-  font-size: 30px;
+  font-size: 1.2em;
   color: black;
   background-color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 25px;
-  width: 250px;
+  width: 7.4em;
+  height: 2em;
+  line-height: 2em;
   font-weight: 600;
   position: absolute;
   border: solid 2px #f2f2f2;
   padding-left: 30px;
-  left: 640px;
+  left: 25em;
 }
 
 .romantique i {
@@ -204,22 +210,24 @@ form i {
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
-  left: 640px;
+  left: 24em;
 }
 
 .animaux a {
-  font-size: 30px;
+  font-size: 1.2em;
   color: black;
   background-color: white;
   text-decoration: none;
   text-align: center;
   border-radius: 25px;
-  width: 350px;
+  width: 10.2em;
+  height: 2em;
+  line-height: 2em;
   font-weight: 600;
   position: absolute;
   border: solid 2px #f2f2f2;
   padding-left: 30px;
-  left: 940px;
+  left: 35.5em;
 }
 
 .animaux i {
@@ -231,7 +239,7 @@ form i {
   border-radius: 50%;
   background-color: #deebff;
   color: #0065fc;
-  left: 940px;
+  left: 34.1em;
 }
 
 .liens a:hover {
@@ -239,9 +247,20 @@ form i {
   cursor: pointer;
 }
 
-/* Hébergements */
+/* HÉBERGEMENTS */
+
+#hebergements i {
+  color: #0065fc;
+}
+
+#hebergements {
+  display: flex;
+  justify-content: space-between;
+}
+
 article {
   background-color: #f2f2f2;
+  width: 68%;
 }
 
 .premiereligne {
@@ -270,6 +289,9 @@ article {
   background-color: white;
   border-radius: 0 0 10px 10px;
   width: 100%;
+}
+#cannebiere_description i:nth-child(8) {
+  color: #f2f2f2;
 }
 
 #hotelduport_image {
@@ -308,6 +330,10 @@ article {
   width: 100%;
 }
 
+#hotellesmouettes_description i:nth-child(8) {
+  color: #f2f2f2;
+}
+
 #hoteldelamer_image {
   position: relative;
 }
@@ -324,6 +350,13 @@ article {
   background-color: white;
   border-radius: 0 0 10px 10px;
   width: 100%;
+}
+
+#hoteldelamer_description i:nth-child(7) {
+  color: #f2f2f2;
+}
+#hoteldelamer_description i:nth-child(8) {
+  color: #f2f2f2;
 }
 
 #aubergelepanier_image {
@@ -344,6 +377,10 @@ article {
   width: 100%;
 }
 
+#aubergelepanier_description i:nth-child(8) {
+  color: #f2f2f2;
+}
+
 #hotelchezamina_image {
   position: relative;
 }
@@ -360,6 +397,71 @@ article {
   background-color: white;
   border-radius: 0 0 10px 10px;
   width: 100%;
+}
+
+/* LES PLUS POPULAIRES */
+
+aside {
+  background-color: #f2f2f2;
+  width: 30%;
+}
+
+#soleildumatin {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  height: 9em;
+  margin: 1.5em 1.5em;
+}
+
+#soleildumatin img {
+  position: absolute;
+  width: 40%;
+  height: 99%;
+}
+#soleildumatin_description {
+  position: absolute;
+  right: 0;
+}
+#aucoeurdeleau {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  height: 9em;
+  margin: 1.5em 1.5em;
+}
+
+#aucoeurdeleau img {
+  position: absolute;
+  width: 40%;
+  height: 99%;
+}
+#aucoeurdeleau_description {
+  position: absolute;
+  right: 0;
+}
+#aucoeurdeleau_description i:nth-child(6) {
+  color: #f2f2f2;
+}
+#bleuetblanc {
+  position: relative;
+  background-color: white;
+  width: 90%;
+  height: 9em;
+  margin: 1.5em 1.5em;
+}
+
+#bleuetblanc img {
+  position: absolute;
+  width: 40%;
+  height: 99%;
+}
+#bleuetblanc_description {
+  position: absolute;
+  right: 0;
+}
+#bleuetblanc_description i:nth-child(6) {
+  color: #f2f2f2;
 }
 
 /* FOOTER */
