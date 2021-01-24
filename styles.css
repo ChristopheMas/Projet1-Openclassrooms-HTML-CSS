@@ -261,7 +261,9 @@ form i {
 
 .liens a:hover {
   background-color: #deebff;
+  color: #0065fc;
   cursor: pointer;
+  transition: 0.7s;
 }
 
 /* HÉBERGEMENTS */
@@ -706,6 +708,11 @@ h3 {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
 }
+
+#activites a {
+  color: black;
+}
+
 .port {
   grid-row: 1 / span2;
 }
@@ -765,4 +772,50 @@ footer a {
 
 footer a:hover {
   color: #0065fc;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 414px) {
+  #hebergements {
+    display: flex;
+    flex-direction: column;
+  }
+  #hebergements article {
+    order: 2;
+  }
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 75em;
+  }
+
+  #activites img {
+    height: 10em;
+  }
+
+  .port_image {
+    margin: 1em 1em;
+  }
+  .pomegues_image {
+    margin: 1em 1em;
+  }
+  .frioul_image {
+    margin: 1em 1em;
+  }
+  .calanques_image {
+    margin: 1em 1em;
+  }
+  .notredame_image {
+    margin: 1em 1em;
+  }
+  .longchamp_image {
+    margin: 1em 1em;
+  }
+  footer {
+    flex-direction: column;
+    white-space: nowrap;
+  }
 }
