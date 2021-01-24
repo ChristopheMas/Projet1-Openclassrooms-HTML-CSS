@@ -99,6 +99,14 @@ form i {
   right: -5px;
 }
 
+form i:last-child {
+  background-color: #0065fc;
+  color: white;
+  border-radius: 15px;
+  position: absolute;
+  display: none;
+}
+
 .info {
   display: flex;
   align-items: center;
@@ -777,6 +785,18 @@ footer a:hover {
 /* MEDIA QUERIES */
 
 @media screen and (max-width: 414px) {
+  body {
+    width: 736px;
+  }
+
+  input[type="submit"] {
+    display: none;
+  }
+
+  form i:last-child {
+    display: inline-block;
+    left: 19em;
+  }
   #hebergements {
     display: flex;
     flex-direction: column;
@@ -784,7 +804,25 @@ footer a:hover {
   #hebergements article {
     order: 2;
   }
-
+  article {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .premiereligne {
+    display: flex;
+    flex-direction: column;
+  }
+  .deuxiemeligne {
+    display: flex;
+    flex-direction: column;
+  }
+  aside {
+    display: flex;
+    flex-direction: column;
+    height: 50em;
+    width: 100%;
+  }
   #activites {
     display: flex;
     flex-direction: column;
@@ -793,7 +831,8 @@ footer a:hover {
   }
 
   #activites img {
-    height: 10em;
+    height: 20em;
+    width: 90%;
   }
 
   .port_image {
