@@ -319,16 +319,16 @@ h4 {
   flex-direction: row;
 }
 
-#cannebiere_image {
-  position: relative;
-  margin: 1em 2em;
-}
-
-#cannebiere_image img {
+article img {
   border-radius: 15px;
   width: 14em;
   height: 15em;
   border: 0.3em solid white;
+}
+
+#cannebiere_image {
+  position: relative;
+  margin: 1em 2em;
 }
 
 #cannebiere_description {
@@ -350,13 +350,6 @@ h4 {
   margin: 1em 2em;
 }
 
-#hotelduport_image img {
-  border-radius: 15px;
-  width: 14em;
-  height: 15em;
-  border: 0.3em solid white;
-}
-
 #hotelduport_description {
   position: absolute;
   bottom: 0;
@@ -370,13 +363,6 @@ h4 {
 #hotellesmouettes_image {
   position: relative;
   margin: 1em 2em;
-}
-
-#hotellesmouettes_image img {
-  border-radius: 15px;
-  width: 14em;
-  height: 15em;
-  border: 0.3em solid white;
 }
 
 #hotellesmouettes_description {
@@ -396,13 +382,6 @@ h4 {
 #hoteldelamer_image {
   position: relative;
   margin: 1em 2em;
-}
-
-#hoteldelamer_image img {
-  border-radius: 15px;
-  width: 14em;
-  height: 15em;
-  border: 0.3em solid white;
 }
 
 #hoteldelamer_description {
@@ -427,13 +406,6 @@ h4 {
   margin: 1em 2em;
 }
 
-#aubergelepanier_image img {
-  border-radius: 15px;
-  width: 14em;
-  height: 15em;
-  border: 0.3em solid white;
-}
-
 #aubergelepanier_description {
   position: absolute;
   bottom: 0;
@@ -451,13 +423,6 @@ h4 {
 #hotelchezamina_image {
   position: relative;
   margin: 1em 2em;
-}
-
-#hotelchezamina_image img {
-  border-radius: 15px;
-  width: 14em;
-  height: 15em;
-  border: 0.3em solid white;
 }
 
 #hotelchezamina_description {
@@ -482,6 +447,13 @@ aside a {
   color: black;
 }
 
+aside img {
+  position: absolute;
+  width: 40%;
+  height: 93%;
+  border-radius: 15px 0 0 15px;
+  border: 0.3em solid white;
+}
 #titre {
   display: flex;
   justify-content: space-between;
@@ -506,13 +478,6 @@ aside a {
   border-radius: 15px;
 }
 
-#soleildumatin img {
-  position: absolute;
-  width: 40%;
-  height: 93%;
-  border-radius: 15px 0 0 15px;
-  border: 0.3em solid white;
-}
 #soleildumatin_description {
   position: absolute;
   right: 0;
@@ -528,13 +493,6 @@ aside a {
   border-radius: 15px;
 }
 
-#aucoeurdeleau img {
-  position: absolute;
-  width: 40%;
-  height: 93%;
-  border-radius: 15px 0 0 15px;
-  border: 0.3em solid white;
-}
 #aucoeurdeleau_description {
   position: absolute;
   right: 2em;
@@ -552,13 +510,6 @@ aside a {
   border-radius: 15px;
 }
 
-#bleuetblanc img {
-  position: absolute;
-  width: 40%;
-  height: 93%;
-  border-radius: 15px 0 0 15px;
-  border: 0.3em solid white;
-}
 #bleuetblanc_description {
   position: absolute;
   right: 0;
@@ -584,7 +535,7 @@ h3 {
   position: relative;
 }
 
-.port_content {
+.content {
   position: absolute;
   bottom: 0;
   background-color: white;
@@ -606,18 +557,6 @@ h3 {
   position: relative;
 }
 
-.pomegues_content {
-  position: absolute;
-  bottom: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px #f2f2f2;
-  width: 19em;
-  font-weight: 600;
-  box-sizing: border-box;
-  padding: 1em 3em 1em 1em;
-  border-radius: 0 0 15px 15px;
-}
-
 .frioul img {
   height: 10em;
   width: 19em;
@@ -629,17 +568,6 @@ h3 {
   position: relative;
 }
 
-.frioul_content {
-  position: absolute;
-  bottom: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px #f2f2f2;
-  width: 19em;
-  font-weight: 600;
-  box-sizing: border-box;
-  padding: 1em 3em 1em 1em;
-  border-radius: 0 0 15px 15px;
-}
 .calanques img {
   height: 30em;
   width: 19em;
@@ -649,18 +577,6 @@ h3 {
 
 .calanques_image {
   position: relative;
-}
-
-.calanques_content {
-  position: absolute;
-  bottom: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px #f2f2f2;
-  width: 19em;
-  font-weight: 600;
-  box-sizing: border-box;
-  padding: 1em 3em 1em 1em;
-  border-radius: 0 0 15px 15px;
 }
 
 .notredame img {
@@ -674,18 +590,6 @@ h3 {
   position: relative;
 }
 
-.notredame_content {
-  position: absolute;
-  bottom: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px #f2f2f2;
-  width: 19em;
-  font-weight: 600;
-  box-sizing: border-box;
-  padding: 1em 3em 1em 1em;
-  border-radius: 0 0 15px 15px;
-}
-
 .longchamp img {
   height: 10em;
   width: 19em;
@@ -695,18 +599,6 @@ h3 {
 
 .longchamp_image {
   position: relative;
-}
-
-.longchamp_content {
-  position: absolute;
-  bottom: 0;
-  background-color: white;
-  box-shadow: 3px 3px 5px #f2f2f2;
-  width: 19em;
-  font-weight: 600;
-  box-sizing: border-box;
-  padding: 1em 3em 1em 1em;
-  border-radius: 0 0 15px 15px;
 }
 
 #activites {
