@@ -490,9 +490,42 @@ footer a:hover {
   }
 }
 
-@media all and (max-device-width: 480px) {
+@media screen and (max-width: 600px) {
   .container {
     margin: 0 1rem;
+    width: 100vw;
+  }
+
+  header {
+    flex-direction: column;
+  }
+
+  nav ul {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  nav ul li {
+    border-bottom: 2px solid #d9d9d9;
+    padding-bottom: 1rem;
+    width: 50%;
+    text-align: center;
+  }
+
+  header li:hover {
+    border-top: none;
+    border-bottom: 0.125rem solid #0065fc;
+    color: #0065fc;
+    padding-bottom: 1rem;
+  }
+
+  nav {
+    order: 3;
+  }
+
+  .inscription {
+    align-self: flex-end;
+    margin-top: -4.8rem;
   }
 
   h2,
@@ -507,14 +540,9 @@ footer a:hover {
     display: inline;
   }
 
-  header {
-    grid-template-columns: auto 1fr auto;
-    grid-template-areas: ".logo .inscription";
-  }
-
   aside {
     order: 1;
-    width: 142%;
+    width: 100%;
     margin-left: -2em;
     background-color: #f2f2f2;
   }
@@ -526,11 +554,11 @@ footer a:hover {
 
   .figures_aside {
     margin-bottom: 0.1em;
-    width: 95%;
+    width: 90%;
   }
 
   .figures_article {
-    width: 33.5rem;
+    width: 20.5em;
   }
 
   .figures_article img {
@@ -547,11 +575,11 @@ footer a:hover {
 
   #activites img {
     height: 10rem;
-    width: 120%;
+    width: 90%;
   }
 
   .act_content {
-    width: 120%;
+    width: 90%;
     margin-bottom: 1.5rem;
   }
 
@@ -562,6 +590,6 @@ footer a:hover {
   footer {
     display: flex;
     margin-top: 45em;
-    width: 200%;
+    width: 100%;
   }
 }
