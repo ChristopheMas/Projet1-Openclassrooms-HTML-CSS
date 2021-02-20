@@ -242,8 +242,8 @@ aside {
 #container_figures_aside {
   display: flex;
   flex-direction: column;
-  margin-left: 20px;
-  margin-right: 30px;
+  margin-left: 1.25em;
+  margin-right: 1.875em;
 }
 
 .figures_aside {
@@ -257,8 +257,8 @@ aside {
 }
 
 .figures_aside img {
-  width: 130px;
-  height: 150px;
+  width: 8.125rem;
+  height: 9.375rem;
   border-radius: 10px 0 0 10px;
   object-fit: cover;
 }
@@ -449,7 +449,7 @@ footer {
   flex-wrap: wrap;
   background-color: #f2f2f2;
   padding: 40px 0;
-  margin: 1em -2em 0 -2em;
+  margin: 0 -2em;
 }
 footer h3 {
   margin-left: 0;
@@ -483,6 +483,12 @@ footer a:hover {
   aside {
     width: 96.5%;
     margin-top: 1em;
+    margin-bottom: 1em;
+    order: 1;
+  }
+
+  article {
+    order: 2;
   }
 
   footer {
@@ -492,12 +498,17 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
   .container {
-    margin: 0 1rem;
+    overflow-x: hidden;
+    margin: 0;
     width: 100vw;
   }
 
   header {
     flex-direction: column;
+    margin-left: 0.5em;
+  }
+  header img {
+    margin-left: 2rem;
   }
 
   nav ul {
@@ -526,12 +537,13 @@ footer a:hover {
   .inscription {
     align-self: flex-end;
     margin-top: -4.8rem;
+    margin-right: 2rem;
   }
 
   h2,
   h3,
   p {
-    margin-left: 0;
+    margin-left: 1rem;
   }
   input[type="submit"] {
     display: none;
@@ -540,11 +552,19 @@ footer a:hover {
     display: inline;
   }
 
+  .filtre {
+    margin-bottom: 1em;
+  }
+
   aside {
     order: 1;
     width: 100%;
-    margin-left: -2em;
     background-color: #f2f2f2;
+    border-radius: 0;
+  }
+
+  h1 {
+    margin-left: 1em;
   }
 
   article {
@@ -558,7 +578,8 @@ footer a:hover {
   }
 
   .figures_article {
-    width: 20.5em;
+    width: 25rem;
+    margin-left: 1em;
   }
 
   .figures_article img {
@@ -584,6 +605,7 @@ footer a:hover {
   }
 
   #acts {
+    box-sizing: border-box;
     margin-left: 1em;
   }
 
@@ -591,5 +613,6 @@ footer a:hover {
     display: flex;
     margin-top: 45em;
     width: 100%;
+    margin-left: 0;
   }
 }
