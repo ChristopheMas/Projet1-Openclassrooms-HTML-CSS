@@ -496,6 +496,51 @@ footer a:hover {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .filtre {
+    margin-bottom: 0.5rem;
+  }
+  aside {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .liens_aside {
+    width: 105%;
+    margin-left: -0.4rem;
+  }
+
+  article {
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+  }
+
+  h4 {
+    margin-bottom: 1rem;
+  }
+
+  #activites {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #activites img {
+    height: 12rem;
+    width: 80%;
+    margin-left: 3rem;
+  }
+
+  .act_content {
+    width: 80%;
+    margin-left: 3rem;
+    margin-bottom: 1.5rem;
+  }
+
+  footer {
+    margin-top: 55em;
+  }
+}
+
 @media screen and (max-width: 600px) {
   .container {
     overflow-x: hidden;
@@ -577,6 +622,11 @@ footer a:hover {
     margin-bottom: 0.2em;
     width: 105%;
     margin-left: -0.3rem;
+  }
+
+  .liens_aside {
+    margin: 0;
+    margin-bottom: 1rem;
   }
 
   .figures_article {
