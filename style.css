@@ -563,17 +563,20 @@ footer a:hover {
   }
 
   nav ul li {
-    border-bottom: 2px solid #d9d9d9;
-    padding-bottom: 1rem;
+    border-bottom: 0.125rem solid #d9d9d9;
+    padding-bottom: 0.875rem;
     width: 50%;
     text-align: center;
   }
 
+  header li a {
+    padding: inherit;
+  }
+
   header li:hover {
-    border-top: none;
-    border-bottom: 0.125rem solid #0065fc;
+    border-top-color: transparent;
     color: #0065fc;
-    padding-bottom: 1rem;
+    border-bottom-color: #0065fc;
   }
 
   nav {
@@ -591,6 +594,7 @@ footer a:hover {
   p {
     margin-left: 1rem;
   }
+
   input[type="submit"] {
     display: none;
   }
@@ -610,7 +614,11 @@ footer a:hover {
   }
 
   h1 {
-    margin-left: 1em;
+    margin-left: 0.2em;
+  }
+
+  #titre {
+    align-items: baseline;
   }
 
   article {
@@ -618,20 +626,30 @@ footer a:hover {
     background-color: white;
   }
 
+  article h1 {
+    margin-left: -0.5em;
+    margin-bottom: -0.9em;
+  }
+
   .figures_aside {
-    margin-bottom: 0.2em;
-    width: 105%;
-    margin-left: -0.3rem;
+    width: 100%;
+    margin-top: 0.5em;
+    margin-left: -0.4em;
   }
 
   .liens_aside {
     margin: 0;
     margin-bottom: 1rem;
   }
+  .liens_article {
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+  }
 
   .figures_article {
-    width: 130%;
-    margin-left: -1rem;
+    width: 120%;
+    margin-left: -2em;
   }
 
   .figures_article img {
@@ -641,6 +659,11 @@ footer a:hover {
     width: 100%;
   }
 
+  h4 {
+    font-size: 17px;
+    margin-left: 0.4em;
+  }
+
   #activites {
     display: flex;
     flex-direction: column;
@@ -648,12 +671,14 @@ footer a:hover {
 
   #activites img {
     height: 10rem;
-    width: 90%;
+    width: 91%;
+    margin-left: 0;
   }
 
   .act_content {
-    width: 90%;
+    width: 91%;
     margin-bottom: 1.5rem;
+    margin-left: 0;
   }
 
   #acts {
@@ -663,7 +688,7 @@ footer a:hover {
 
   footer {
     display: flex;
-    margin-top: 45em;
+    margin-top: 2em;
     width: 100%;
     margin-left: 0;
   }
