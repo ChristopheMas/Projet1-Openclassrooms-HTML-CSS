@@ -46,8 +46,8 @@ header li:hover {
   padding: 2.5rem 2.5rem 0;
 }
 
-h2,
-h3 {
+h3,
+h4 {
   font-weight: 700;
   margin-left: 1rem;
   margin-bottom: 1.5rem;
@@ -84,12 +84,12 @@ input[type="submit"] {
   border: none;
   border-radius: 0 15px 15px 0;
   margin-left: -0.22em;
-  font-weight: 550;
+  font-weight: 600;
 }
 
 ::placeholder {
   color: black;
-  font-weight: 550;
+  font-weight: 600;
 }
 #search i:last-child {
   background-color: #0065fc;
@@ -160,7 +160,7 @@ input[type="submit"] {
 
 /* HÉBERGEMENTS*/
 
-h1 {
+h2 {
   font-size: 1.4rem;
   padding: 1rem;
   margin-left: 1rem;
@@ -306,13 +306,13 @@ aside .etoiles {
   font-size: 1.3rem;
 }
 
-h4 {
+h5 {
   margin-left: 3em;
   margin-top: 3em;
   font-size: 0.9em;
 }
 
-h3 {
+h4 {
   font-size: 1.3em;
 }
 
@@ -451,7 +451,7 @@ footer {
   padding: 40px 0;
   margin: 0 -2em;
 }
-footer h3 {
+footer h4 {
   margin-left: 0;
 }
 footer li {
@@ -515,7 +515,7 @@ footer a:hover {
     margin-right: 0.8rem;
   }
 
-  h4 {
+  h5 {
     margin-bottom: 1rem;
   }
 
@@ -589,8 +589,8 @@ footer a:hover {
     margin-right: -1rem;
   }
 
-  h2,
   h3,
+  h4,
   p {
     margin-left: 1rem;
   }
@@ -613,7 +613,7 @@ footer a:hover {
     border-radius: 0;
   }
 
-  h1 {
+  h2 {
     margin-left: 0.2em;
   }
 
@@ -626,7 +626,7 @@ footer a:hover {
     background-color: white;
   }
 
-  article h1 {
+  article h2 {
     margin-left: -0.5em;
     margin-bottom: -0.9em;
   }
@@ -659,7 +659,7 @@ footer a:hover {
     width: 100%;
   }
 
-  h4 {
+  h5 {
     font-size: 17px;
     margin-left: 0.4em;
   }
